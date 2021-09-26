@@ -4,6 +4,7 @@ import React from "react";
 import Hedder from "./Hedder";
 import Sidebar from "./Sidebar";
 import Feed from "./Feed";
+import Widgets from "./Widgets";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
      <div className="app__body">
            <Sidebar />
            <Feed />
+           <Widgets />
            
          </div> 
 
